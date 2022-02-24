@@ -1,0 +1,68 @@
+.form {
+    display: flex;
+    justify-content: space-around;
+}
+.insert_forms {
+    margin-top: 180px
+;}
+
+.body {
+    background-color: #fff;
+}
+.registr {
+    background: #7CD8FF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 10px 12px;
+    width: 420px;
+    height: 50px;
+
+
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+
+
+.m_text {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+}
+.input {
+    border: 1px solid #DED2D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 420px;
+    height: 45px;
+    margin-bottom: 26px;
+
+}
+.a_text {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #525252;
+}
+.img_right{
+    width: 72px;
+    height: 72px;
+    margin-bottom: 36px;
+}

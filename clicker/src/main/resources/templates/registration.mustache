@@ -1,0 +1,31 @@
+<html lang="ru">
+    <head>
+        <title>Clicker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/reg.css"/>
+    </head>
+    <body>
+
+        <div class="form" style="display: flex;justify-content: space-around;">
+            <img class="img_left" src="/img/login_1.jpg" draggable="false">
+            <div class="insert_forms">
+                <img class="img_right" src="/img/login_2.jpg" draggable="false">
+                <div class="a_text">Login to your Account</div>
+                <form method="POST" action="http://localhost:8080/api/users/register">
+                    <div class="m_text">Login</div>
+                    <label>
+                        <input  class="input"placeholder="Логин" type="text" name="username">
+                    </label>
+                    <div class="m_text">Password</div>
+                    <label>
+                        <input class="input" placeholder="Пароль" type="password" name="password">
+                    </label>
+                    <button class="registr" type="submit">
+                        Зарегистрироваться
+                    </button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

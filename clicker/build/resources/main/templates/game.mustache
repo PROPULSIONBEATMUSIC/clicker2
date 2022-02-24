@@ -1,0 +1,28 @@
+<html lang="ru">
+    <head>
+        <title>Clicker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/game.css"/>
+        <style>
+            body {
+            font-family: sans-serif;
+        <!--    background-color: #81d4fa;-->
+            font-weight: bold;
+        }
+        </style>
+    </head>
+
+    <body>
+        <form method="POST" action="http://localhost:8080/api/users/updateCounter">
+            <div class="click">
+                <div class="text-box">
+                    <div class="counter" >0</div>
+                    <a href="" class="btn btn-white btn-animate">
+                        <button type="submit">Click!</button>
+                    </a>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
